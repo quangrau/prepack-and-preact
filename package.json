@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
@@ -12,6 +14,7 @@
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-react-app": "^3.0.0",
     "babel-runtime": "6.23.0",
     "case-sensitive-paths-webpack-plugin": "1.1.4",
@@ -73,11 +76,6 @@
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     }
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
   },
   "eslintConfig": {
     "extends": "react-app"
