@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "preact": "^8.1.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
@@ -33,6 +34,7 @@
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.0.0",
     "postcss-loader": "2.0.5",
+    "prepack-webpack-plugin": "^1.1.0",
     "promise": "7.1.1",
     "react-dev-utils": "^2.0.0",
     "react-error-overlay": "^1.0.5",
